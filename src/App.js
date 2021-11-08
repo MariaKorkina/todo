@@ -4,12 +4,7 @@ import ToDoForm from './ToDoForm';
 
 function App() {
 
-  // useEffect(() => {
-  //  fetch('https://jsonplaceholder.typicode.com/posts')
-  //  .then(response=>response.json)
-  //  .then(json => 
-  //    console.log(json))
-  // }, []);
+ 
   const [todos, setTodo] = useState([]);
 
 // функция для добавления задач
